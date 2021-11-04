@@ -10,4 +10,4 @@ RUN ["chmod", "+x", "/root/run.sh"]
 
 ENV HOME /root
 EXPOSE 8080
-# CMD ["sh", "/root/run.sh"]
+CMD ["sh", "/root/run.sh"]
