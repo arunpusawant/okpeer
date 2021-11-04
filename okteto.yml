@@ -1,0 +1,10 @@
+name: web
+command: ["./run.sh"]
+resources:
+  limits:
+    memory: "4096Mi"
+    cpu: "2000m"
+sync:
+  - .:/app
+forward:
+  - 8080:8080
