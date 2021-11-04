@@ -7,4 +7,4 @@ resources:
 sync:
   - .:/app
 forward:
-  - 8080:8080
+  - 8080:9000
